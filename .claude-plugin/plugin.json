@@ -1,0 +1,22 @@
+{
+  "name": "vanguard-advisor-tools",
+  "displayName": "Vanguard Advisor Tools",
+  "version": "1.3.0",
+  "description": "Research and evaluate investment products across the industry using Vanguard advisor tools in Claude. Compare and evaluate investments and prepare for client conversations.",
+  "author": {
+    "name": "Vanguard"
+  },
+  "keywords": [
+    "investments",
+    "funds",
+    "etf",
+    "fund-comparison",
+    "financial-advisor"
+  ],
+  "mcpServers": {
+    "vanguard-advisors": {
+      "url": "https://mcp.vanguard.com/advisors",
+      "type": "http"
+    }
+  }
+}
